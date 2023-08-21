@@ -1677,8 +1677,6 @@ input[type=file]::file-selector-button:hover {
   background-color: #333645;
   height: 1100px;
   padding-left: 165px;
-  border-top-left-radius: 15%;
-  border-top-right-radius: 15%;
   margin-top: -170px;
 }
 
