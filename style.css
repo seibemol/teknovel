@@ -488,38 +488,76 @@ header {
   padding: 20px 400px;
 }
 
- /* Cards */
+/* Cards */
 
-/*
 .card-container {
-  width: 90%;
-}
-
-.row {
-  height: 300px;
+  margin-left: 160px !important;
+  margin-top: -550px;
 }
 
 .card {
-  width: 100px;
-  height: 80%;
-  background: white !important;
-  border: none;
+  width: 270px;
+  height: 500px !important;
+  background-color: white !important;
+  border: none !important;
+  border-radius: 0 !important;
   margin-bottom: 50px;
-}
-
-.card-2-3 {
-  height: 100%;
-  background-color: #333645;
-  border: none;
-  margin-bottom: 50px;
+  display: inline-block !important;
+  vertical-align: bottom !important;
+  align-items: center !important;
+  justify-content: center !important;
+  margin-right: 20px !important;
+  position: relative;
 }
 
 .card-header {
-  text-align: center;
-  padding: 50px 10px;
-  font-family: 'Exo 2', sans-serif;
-  font-size: 24px;
+  background-color: white !important;
   color: #292b37;
+  border: none !important;
+  border-radius: 0 !important;
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 5px 0px;
+}
+
+.card:hover .card-header {
+  color: #179dbe !important;
+}
+
+.card:hover .card-footer {
+  background: #168abc !important;
+}
+
+.card:hover .fa-users {
+  color: #179dbe !important;
+}
+
+.card:hover .fa-star {
+  color: #179dbe !important;
+}
+
+.card p {
+  text-align: center !important;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  line-height: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.card-1-4 {
+  margin-top: 50px !important;
+  height: 450px !important;
+}
+
+.card-2-3 {
+  background-color: #333645 !important;
+}
+
+.card-2-3 .card-header {
+  background-color: #333645 !important;
+  color: white !important;
 }
 
 .card-body {
@@ -527,181 +565,55 @@ header {
   padding: 50px 10px;
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
-  color: #8f919b;
-}
-
-*/
-
-
-
-/*
-.card-group {
-  align-items: center !important;
-  justify-content: center !important;
-  margin-top: -240px !important;
-}
-
-.card {
-  border: none !important;
-  border-radius: 0 !important;
-  text-align: center !important;
-  line-height: 30px !important;
-  width: 270px !important;
-  margin-left: 10px !important;
-  display: inline-block !important;
-  vertical-align: bottom;
-}
-
-.card-1 {
-  background-color: white !important;
-  margin-top: -320px !important;
-  margin-bottom: 20px;
-  padding-bottom: 60px;
-  height: 400px !important;
-  text-align: center !important;
-}
-
-.card-2 {
-  background-color: #333645 !important;
   color: #8f919b !important;
-  margin-top: -700px;
-  margin-bottom: 20px;
-  padding-bottom: 60px;
-  text-align: center !important;
-}
-
-.card-3 {
-  background-color: #333645 !important;
-  color: #8f919b !important;
-  margin-top: -700px;
-  margin-bottom: 20px;
-  padding-bottom: 60px;
-  text-align: center !important;
-}
-
-.card-4 {  
-  background-color: white !important;
-  margin-top: -320px;
-  margin-bottom: -20px;
-  height: 413px !important;
-  text-align: center !important;
-}
-
-.card-title-lider {
-  color: #292b37;
-  font-family: 'Exo 2', sans-serif;
-  padding: 5px 0px;
-}
-
-.card-title-yenilikci {
-  color: white !important;
-  font-family: 'Exo 2', sans-serif;
-  padding: 5px 0px;
-}
-
-.card-title-guvenilir {
-  color: white !important;
-  font-family: 'Exo 2', sans-serif;
-  padding: 5px 0px;
-}
-
-.card-title-musteri {
-  color: #292b37;
-  font-family: 'Exo 2', sans-serif;
-  padding: 5px 0px;
-}
-
-.card-text {
-  color: #8f919b !important;
-  font-size: 17px !important;
-  line-height: 30px !important;
-  font-family: 'Work Sans', sans-serif !important;
-  padding-top: 5px;
-  margin-bottom: 40px !important;
-  flex-grow: 1;
-}
-
-.content-container {
-  padding-left: 12px;
-  padding-right: 12px;
-  padding-bottom: 30px;
 }
 
 .card-footer {
-  background-color: #179dbe !important;
-  margin: -16px !important;
-  border-radius: 0 !important;
-  border: none !important;
-}
-
-.card-link {
   color: white !important;
-  text-decoration: none !important;
-  padding: 0px !important;
+  background: #179dbe !important;
+  border: none !important;
+  border-radius: 0 !important;
+  text-align: center !important;
+  font-family: 'Work Sans', sans-serif !important;
+  font-size: 17px !important;
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  margin-left: -135px !important;
 }
-
-.liderCard {
-  height: 350px;
-}
-
-.liderCard .card-footer {
-  vertical-align: bottom;
-}*/
-
-/*
-.liderDiv {
-  height: 450px;
-  width: 250px !important;
-  margin-top: 50px;
-  text-align: center;
-}
-
-.yenilikciDiv {
-  height: 500px;
-  width: 250px !important;
-  background-color: #333645;
-  text-align: center;
-}
-
-.guvenilirDiv {
-  height: 500px;
-  width: 250px !important;
-  background-color: #333645;
-  margin-top: 100px;
-  text-align: center;
-}
-
-.musteriDiv{
-  height: 450px;
-  width: 250px !important;
-  margin-top: 80px;
-  text-align: center;
-}
-*/
-
 
 .fa-users {
   color: #5f616f;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 .fa-microchip {
-  color: #8cd4dd;
+  color: white;
+  background-color: #179dbe;
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  padding-top: 30px;
 }
 
 .fa-shield-halved {
-  color: #8cd4dd;
+  color: white;
+  background-color: #179dbe;
+  border-radius: 50%;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 20px;
   text-align: center;
-  padding-top: 30px;
 }
 
 .fa-star {
   color: #5f616f;
   text-align: center;
   padding-top: 30px;
+  padding-bottom: 20px;
 }
 
 
