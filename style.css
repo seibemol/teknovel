@@ -14,10 +14,6 @@
   src: url(fonts/Exo2-Regular.ttf) format('truetype');
 }
 
-* {
-  box-sizing: border-box;
-}
-
 body {
   font-weight: 500 !important;
 }
@@ -502,7 +498,7 @@ header {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
-  padding-bottom: 330px;
+  padding-bottom: 100px;
   /* height: 1000px !important; */
 }
 
@@ -512,6 +508,7 @@ header {
   text-align: center;
   font-family: 'Exo 2', sans-serif;
   padding-top: 150px;
+  padding-bottom: 50px;
   opacity: 10000 !important;
   margin-left: 20px;
 }
@@ -532,7 +529,7 @@ header {
   font-size: 17px;
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
-
+  padding-bottom: 70px;
 }
 
 /* Cards */
@@ -543,7 +540,7 @@ header {
 }
 
 .card {
-  width: 270px;
+  /*width: 270px;*/
   height: 500px !important;
   background-color: white !important;
   border: none !important;
@@ -625,8 +622,9 @@ header {
   font-size: 17px !important;
   position: absolute !important;
   bottom: 0 !important;
+  left: 0 !important;
   width: 100% !important;
-  margin-left: -135px !important;
+  /*margin-left: -135px !important;*/
 }
 
 .fa-users {
@@ -665,7 +663,7 @@ header {
 
 
 .anasayfaIletisimVerticalDiv {
-  height: 200px;
+  /*height: 200px;*/
   background-image: url(img/anasayfa_iletisim.jpg);
   background-position: center;
 }
@@ -676,16 +674,17 @@ header {
   font-size: 26px;
   color: white;
   text-align: center;
-  padding-top: 80px;
-  margin-left: 640px;
-  line-height: 1 !important;
+  margin-top: 70px;
+  margin-bottom: 120px;
+  /*margin-left: 640px;*/
+  line-height: 1.5 !important;
 }
 
 .anasayfaIletisimVerticalP span {
   display: inline-block !important;
-  width: 850px;
-  margin-left: -265px;
-  margin-top: -50px;
+  /*width: 850px;*/
+  /*margin-left: -265px;*/
+  /*margin-top: -50px;*/
 }
 
 .anasayfaIletisimVerticalA {
@@ -699,10 +698,10 @@ header {
   background-color: #8cd4dd;
   border: none;
   border-radius: 3px;
-  position: absolute;
+  /*position: absolute;*/
   padding: 16px 90px;
-  margin-left: 60px;
-  margin-top: 60px;
+  /*margin-left: 60px;*/
+  margin-top: 10px;
 }
 
 .anasayfaIletisimVerticalA:hover {
@@ -758,8 +757,12 @@ header {
 
 .footerSocialList {
   margin-top: 20px;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   display: flex;
+  padding-bottom: 50px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .footerSocialList li {
@@ -781,16 +784,22 @@ header {
 }
 
 .footerIletisim {
-  margin-top: -80px;
+  /*margin-top: -80px;*/
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+  color: #8f919b;
+  padding-bottom: 50px;
 }
 
 .footerIletisim span {
   text-align: center;
-  margin-left: 1220px;
+  /*margin-left: 1220px;*/
 }
 
 .footerIletisim span p {
-  padding: 0 470px;
+  /*padding: 0 470px;*/
+  padding-bottom: 10px;
 }
 
 .footerIletisim li {
@@ -810,10 +819,10 @@ header {
 }
 
 .footerHizmet {
-  position: absolute;
+  /*position: absolute;*/
   width: 25%;
   margin-top: 25px;
-  margin-left: 870px !important;
+  /*margin-left: 870px !important;*/
 }
 
 .footerHizmet span {
@@ -821,7 +830,8 @@ header {
 }
 
 .footerHizmet h4 {
-  margin-bottom: 25px;
+  padding-bottom: 10px;
+  /*margin-bottom: 25px;*/
 }
 
 .footerHizmet ul li{
@@ -844,7 +854,20 @@ header {
 .footerHizmet hr {
   color: #8f919b;
   width: 200px;
-  margin-left: 120px;
+  /*margin-left: 120px;*/
+}
+
+.footerHizmetList {
+  list-style: none;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 17px;
+}
+
+.footerHizmetList a {
+  list-style: none;
+  text-decoration: none;
+  color: #8f919b;
 }
 
 .footerKVKK {
