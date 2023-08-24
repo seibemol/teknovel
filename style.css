@@ -22,9 +22,13 @@ body {
   font-weight: 500 !important;
 }
 
+.container-fluid {
+  padding: 0 !important;
+}
+
 nav {
   background-color: #333645;
-  height: 120px;
+  height: 125px;
   position: fixed !important;
 }
 
@@ -46,6 +50,23 @@ header {
   justify-content: space-evenly !important;
 }
 
+.menuActive{
+  color: #8cd4dd !important;
+  background-color: #292b37 !important;
+  height: 125px !important;
+}
+
+.menuActive a {
+  color: #8cd4dd !important;
+}
+
+.menuActiveHizmetler{
+  color: #8cd4dd !important;
+}
+.menuActiveHizmetler:hover{
+  color: white !important;
+}
+
 .hizmetButton {
   text-align: center;
   font-size: 14px !important;
@@ -63,11 +84,34 @@ header {
 }
 
 #logo {
-  margin-left: 170px;
+  margin-left: 380px;
+  margin-right: 40px;
+}
+
+.navbar ul {
+  margin-left: 183px !important;
+  margin-bottom: 3px !important;
+  align-items: center;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400 !important;
+  text-align: center;
+}
+
+.navbar-collapse {
+  background-color: #333645 !important;
+}
+
+.navbar li {
+  list-style: none;
+  justify-content: space-between;
+  padding-right: 7px;
+  padding-left: 7px;
+  position: relative;
 }
 
 .ulMenu {
   margin-left: 183px !important;
+  margin-right: -50px !important;
   margin-bottom: 3px !important;
   align-items: center;
   font-family: 'Work Sans', sans-serif;
@@ -82,13 +126,6 @@ header {
   padding-left: 7px;
   position: relative;
 }
-
-/*
-.liMenu .active {
-  background-color: #292b37;
-  padding-left: 7px;
-  padding-right: 7px;
-}*/
 
 .liMenu .active a {
   color: #8cd4dd;
@@ -112,6 +149,7 @@ header {
 .nav-item:hover {
   color: #8cd4dd !important;
   background-color: #292b37;
+  height: 125px;
 }
 
 .dropdown-menu {
@@ -119,17 +157,19 @@ header {
   border: none !important;
   border-radius: 0px !important;
   width: 250px !important;
-  line-height: 29px !important;
-  margin-top: -3px !important;
-  padding-top: 0px !important;
+  line-height: 30px !important;
+  margin-top: 1px !important;
+  padding-top: 4px !important;
   padding-bottom: 0px !important;
   padding-left: 0px !important;
   top: 100% !important;
   left: -8px !important;
+  text-align: left !important;
 }
 
 .dropdown:hover .dropdown-menu {
   display: block !important;
+  margin-left: 8px !important;
 }
 
 .dropdown-item {
@@ -149,6 +189,7 @@ header {
 .dropdown-item:hover {
   background-color: #179dbe !important;
   height: auto !important;
+  width:auto !important;
 }
 
 #kariyer {
@@ -162,6 +203,7 @@ header {
 }
 
 #iletisim {
+  color: white;
   background-color: #179dbe;
   border-radius: 2px;
   line-height: 16px !important;
@@ -177,7 +219,11 @@ header {
 
 #iletisim:hover {
   color: white !important;
-  background-color: #168abc !important;
+  background-color: #168abc;
+}
+
+#iletisim:hover a {
+  color: white !important;
 }
 
 .bizeUlasinBtn1 {
@@ -297,9 +343,9 @@ header {
 
 .carousel-cagri-cizgi1 {
   position: absolute;
-  left: 370px;
+  left: 450px;
   top: 200px;
-  width: 65px;
+  width: 80px;
   height: 2px;
   border-top: 2px solid;
   color: #8cd4dd;
@@ -308,9 +354,9 @@ header {
 
 .carousel-cagri-cizgi2 {
   position: absolute;
-  right: 370px;
+  right: 450px;
   top: 200px;
-  width: 65px;
+  width: 80px;
   height: 2px;
   border-top: 2px solid;
   color: #8cd4dd;
@@ -319,9 +365,9 @@ header {
 
 .carousel-teknoloji-cizgi1 {
   position: absolute;
-  left: 370px;
+  left: 450px;
   top: 255px;
-  width: 65px;
+  width: 80px;
   height: 2px;
   border-top: 2px solid;
   color: #8cd4dd;
@@ -330,9 +376,9 @@ header {
 
 .carousel-teknoloji-cizgi2 {
   position: absolute;
-  right: 370px;
+  right: 450px;
   top: 255px;
-  width: 65px;
+  width: 80px;
   height: 2px;
   border-top: 2px solid;
   color: #8cd4dd;
@@ -444,20 +490,20 @@ header {
   opacity: 0.1;
   height: 140px;
   display: inline-block;
-  margin-left: 760px;
+  margin-left: 950px;
   margin-top: -130px;
   margin-bottom: 20px;
 }
 
 .hakkimizdaDiv {
-  position: relative;
+  /* position: relative; */
   box-sizing: border-box;
   background-image: url(img/iletisim.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center bottom;
   padding-bottom: 330px;
-  height: 1000px !important;
+  /* height: 1000px !important; */
 }
 
 .hakkimizdaDiv h1 {
@@ -467,15 +513,16 @@ header {
   font-family: 'Exo 2', sans-serif;
   padding-top: 150px;
   opacity: 10000 !important;
+  margin-left: 20px;
 }
 
 .hakkimizdaDiv hr {
-  width: 180px;
+  width: 200px;
   color: #292b37;
   background-color: #292b37 !important;
   border: none;
   border-top: 2px solid #292b37;
-  margin-left: 668px;
+  margin-left: 863px;
   margin-top: 30px;
 }
 
@@ -485,13 +532,13 @@ header {
   font-size: 17px;
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
-  padding: 20px 400px;
+
 }
 
 /* Cards */
 
 .card-container {
-  margin-left: 160px !important;
+  margin-left: 380px !important;
   margin-top: -550px;
 }
 
@@ -630,7 +677,7 @@ header {
   color: white;
   text-align: center;
   padding-top: 80px;
-  margin-left: 420px;
+  margin-left: 640px;
   line-height: 1 !important;
 }
 
@@ -654,7 +701,7 @@ header {
   border-radius: 3px;
   position: absolute;
   padding: 16px 90px;
-  margin-left: 65px;
+  margin-left: 60px;
   margin-top: 60px;
 }
 
@@ -666,15 +713,16 @@ header {
 /* Footer */
 
 .footer1 {
-  position: relative !important;
+  /* position: relative !important;
   width: 100%;
   height: auto !important;
   padding: 70px 100px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  flex-direction: column !important;
+  flex-direction: column !important; */
   background-color: #292b37 !important;
+  padding-top: 70px;
 }
 
 .footer1 .container {
@@ -710,7 +758,7 @@ header {
 
 .footerSocialList {
   margin-top: 20px;
-  margin-left: 25px;
+  margin-left: 50px;
   display: flex;
 }
 
@@ -765,7 +813,7 @@ header {
   position: absolute;
   width: 25%;
   margin-top: 25px;
-  margin-left: 890px !important;
+  margin-left: 870px !important;
 }
 
 .footerHizmet span {
@@ -796,7 +844,7 @@ header {
 .footerHizmet hr {
   color: #8f919b;
   width: 200px;
-  margin-left: 80px;
+  margin-left: 120px;
 }
 
 .footerKVKK {
@@ -903,12 +951,12 @@ html {
 }
 
 .kurumsalHakkimizdaDiv hr {
-  width: 180px;
+  width: 200px;
   color: #292b37;
   background-color: #292b37 !important;
   border: none;
   border-top: 2px solid #292b37;
-  margin-left: 668px;
+  margin-left: 850px;
   margin-top: 30px;
 }
 
@@ -918,7 +966,7 @@ html {
   font-size: 17px;
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
-  padding: 20px 290px;
+  padding: 20px 400px;
   margin-bottom: 100px;
 }
 
@@ -943,12 +991,12 @@ html {
 }
 
 .kurumsalPolitikamizDiv hr {
-  width: 180px;
+  width: 200px;
   color: #8f919b;
   background-color: #8f919b !important;
   border: none;
   border-top: 2px solid #8f919b;
-  margin-left: 668px;
+  margin-left: 850px;
   margin-top: 30px;
 }
 
@@ -958,7 +1006,7 @@ html {
   font-size: 17px;
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
-  padding: 20px 290px;
+  padding: 20px 400px;
   margin-bottom: 100px;
 }
 
@@ -970,7 +1018,7 @@ html {
   font-family: 'Work Sans', sans-serif;
   font-weight: 550 !important;
   padding: 14px 20px;
-  margin: 0px 698px;
+  margin: 0px 880px;
   margin-top: -100px !important;
   height: 45px !important; /* bg boyutu */
   text-align: center;
@@ -985,8 +1033,8 @@ html {
 .kurumsalMisyonDiv {
   position: absolute;
   margin-top: -700px;
-  margin-left: 170px;
-  margin-right: 600px;
+  margin-left: 400px;
+  margin-right: 750px;
   margin-bottom: 500px;
 }
 
@@ -1033,7 +1081,7 @@ html {
   text-align: center;
   width: 350px;
   height: 330px;
-  margin-left: 980px;
+  margin-left: 1200px;
   margin-top: -692px;
 }
 
@@ -1072,7 +1120,7 @@ html {
   color: white;
   background-color: #8cd4dd;
   padding: 30px 110px;
-  margin-left: 980px;
+  margin-left: 1200px;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
@@ -1101,15 +1149,16 @@ html {
   color: white !important;
   font-family: 'Exo 2', sans-serif;
   font-size: 45px;
+  text-align: center;
   text-transform: uppercase;
   z-index: 1;
   margin-top: 205px;
-  margin-left: 610px;
+  margin-left: 800px;
 }
 
 .cagriMainDiv {
-  margin-left: 175px;
-  margin-right: 185px;
+  margin-left: 390px;
+  margin-right: 350px;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: white;
@@ -1154,14 +1203,15 @@ html {
   font-family: 'Exo 2', sans-serif;
   font-size: 45px;
   text-transform: uppercase;
+  text-align: center;
   z-index: 1;
   margin-top: 205px;
-  margin-left: 500px;
+  margin-left: 700px;
 }
 
 .cografiMainDiv {
-  margin-left: 170px;
-  margin-right: 190px;
+  margin-left: 390px;
+  margin-right: 370px;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: white;
@@ -1180,6 +1230,7 @@ html {
   color: #8f919b;
   padding-right: 10px;
   padding-top: 20px;
+  margin-left: 20px;
 }
 
 .cografiMainDiv h2 {
@@ -1187,6 +1238,7 @@ html {
   font-family: 'Exo 2', sans-serif;
   padding-top: 5px;
   padding-bottom: 10px;
+  margin-left: 20px;
 }
 
 .cografiProjelerList {
@@ -1199,13 +1251,14 @@ html {
   display: inline;
   height:28.9px;
   width:28.9px;
-  margin-right:11.9px;
-  margin-left: -30px;
+  margin-right: 12px;
+  margin-left: -10px;
   margin-bottom: -30px !important;
 }
 
 .cografiProjelerList p {
   margin-top: -30px;
+  margin-left: 15px;
   font-size: 14px;
   padding-top: 3px;
 }
@@ -1219,8 +1272,8 @@ html {
   height: 250px;
   object-fit: cover;
   object-position: center;
-  padding: 5px;
-  padding-right: 5px !important;
+  padding: 2px;
+  padding-right: 2px !important;
   margin-left: -2px;
   justify-content: center;
   align-items: center;
@@ -1232,8 +1285,8 @@ html {
 }
 
 .gallery-item {
-  width: 345px !important;
-  height: 245px !important;
+  width: 340px !important;
+  height: 240px !important;
   padding: 5px !important;
   margin-left: 2px !important;
   object-fit: cover;
@@ -1265,13 +1318,13 @@ html {
   text-transform: uppercase;
   z-index: 1;
   margin-top: 195px;
-  margin-left: 660px;
+  margin-left: 860px;
   text-align: center;
 }
 
 .projelerMainDiv {
-  margin-left: 170px;
-  margin-right: 190px;
+  margin-left: 390px;
+  margin-right: 350px;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: white;
@@ -1330,12 +1383,12 @@ html {
   text-transform: uppercase;
   z-index: 1;
   margin-top: 205px;
-  margin-left: 680px;
+  margin-left: 870px;
 }
 
 .kariyerMainDiv {
-  margin-left: 175px;
-  margin-right: 185px;
+  margin-left: 390px;
+  margin-right: 350px;
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: white;
@@ -1569,11 +1622,12 @@ input[type=file]::file-selector-button:hover {
   text-align: center;
   padding-bottom: 10px;
   margin-top: -40px;
+  margin-left: 20px;
 }
 
 .iletisimDiv1 hr {
   width: 200px;
-  margin-left: 660px;
+  margin-left: 870px;
   border: 1px solid black;
 }
 
@@ -1597,12 +1651,14 @@ input[type=file]::file-selector-button:hover {
   font-family: 'Exo 2', sans-serif;
   padding-top: 100px;
   padding-bottom: 15px;
+  margin-left: 230px;
 }
 
 .iletisimFormDiv hr {
   color: white;
   width: 200px;
   margin-bottom: 50px;
+  margin-left: 230px;
 }
 
 .iletisimAdSoyadDiv {
@@ -1611,6 +1667,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: 30px;
+  margin-left: 230px;
 }
 
 #iletisimAdSoyad {
@@ -1627,7 +1684,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: -85px;
-  margin-left: 395px;
+  margin-left: 630px;
 }
 
 #iletisimEposta {
@@ -1644,6 +1701,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: 30px;
+  margin-left: 230px;
 }
 
 #iletisimTelefon {
@@ -1660,7 +1718,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: -85px;
-  margin-left: 395px;
+  margin-left: 630px;
 }
 
 #iletisimTCKN {
@@ -1677,6 +1735,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: 30px;
+  margin-left: 230px;
 }
 
 #iletisimKonu {
@@ -1693,6 +1752,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: 30px;
+  margin-left: 230px;
 }
 
 #iletisimMesaj {
@@ -1709,6 +1769,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: 30px;
+  margin-left: 230px;
 }
 
 #iletisimSoru {
@@ -1738,7 +1799,7 @@ input[type=file]::file-selector-button:hover {
 
 .iletisimRightDiv {
   position: absolute;
-  margin-left: -165px;
+  margin-left: 50px;
   margin-top: -53px;
 }
 
@@ -1816,51 +1877,3 @@ input[type=file]::file-selector-button:hover {
   padding-right: 10px !important;
 }
 
-
-
-
-
-
-/*
-.card1 {
-  height: 450px;
-  width: 250px;
-  background-color: white;
-  margin-left: 150px;
-}
-
-.card1 h4 {
-  font-family: 'Exo 2', sans-serif;
-  font-size: 26px;
-  color: #292b37;
-  text-align: center;
-}
-
-.card1 p {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 15px;
-  color: #8b8c97;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding-left: 30px;
-}
-
-.card-text {
-  text-align: center !important;
-  width: 125px !important;
-  padding-right: 0 !important;
-}
-*/
-
-.menuActive{
-  color: #8cd4dd !important;
-  background-color: #292b37 !important;
-}
-
-.menuActiveHizmetler{
-  color: #8cd4dd !important;
-}
-.menuActiveHizmetler:hover{
-  color: white !important;
-}
