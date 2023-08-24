@@ -1,22 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TEKNOVEL Bilgi ve İletişim Teknolojileri</title>
 
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans&family=Poppins:wght@700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=PT+Sans&family=Poppins:wght@700&display=swap"
+    rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400&family=Libre+Baskerville&family=PT+Sans&family=Work+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Exo+2:wght@200;300;400&family=Libre+Baskerville&family=PT+Sans&family=Work+Sans:wght@300;400&display=swap"
+    rel="stylesheet">
 
   <!-- Favicon-->
   <link rel="icon" href="img/favicon-32x32-1.png">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="css/bootstrap.css">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
   <!-- Icon -->
   <link rel="stylesheet" type="text/css" href="fontawesome-free-6.4.2-web/css/all.min.css">
@@ -25,252 +30,328 @@
 
 
 <body>
-<div class="container-xl-fluid">
+  <div class="container-fluid">
 
-    <header class="header" id="headerNavbar">
-      <div class="container">
-        <nav class="navbar navbar-expand-sm fixed-top absolute-bottom bg-muted">
 
-          <div>
-            <a class="navbar-brand" href="#">
-              <img src="img/teknovellogobeyaz.png" srcset="img/teknovellogobeyaz.png 1x" width="179" height="80" alt="TEKNOVEL Bilgi ve İletişim Teknolojileri Logo" data-retina_logo_url class="fusion-standard-logo" id="logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          </div>
-
-          <div class="container">
-            <ul class="nav justify-content-center ulMenu" style="height: 120px;">
-              <li class="nav-item liMenu menuActive">
-                <a class="nav-link menu-text menuActive" href="#">ANA SAYFA</a>
-              </li>
-              <li class="nav-item liMenu">
-                <a class="nav-link menu-text" href="kurumsal/">KURUMSAL</a>
-              </li>
-              <li class="nav-item liMenu">
-                <div class="dropdown">
-                  <button class="btn btn-primary dropdown-toggle hizmetButton" type="button" data-bs-toggle="dropdown" aria-expanded="false">HİZMETLERİMİZ</button>
-                  <ul class="dropdown-menu">
-                    <li class="dropdown-item dropdownLi"><a class="dropdown-item" href="hizmetlerimiz/cagri-merkezi/">ÇAĞRI MERKEZİ</a></li>
-                    <li class="dropdown-item dropdownLi"><a class="dropdown-item" href="hizmetlerimiz/cografi-bilgi-sistemleri/">COĞRAFİ BİLGİ SİSTEMLERİ</a></li>
-                    <li class="dropdown-item dropdownLi"><a class="dropdown-item" href="#">TEKNOLOJİ</a></li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item liMenu">
-                <a class="nav-link menu-text" href="projeler/">PROJELER</a>
-              </li>
-              <li class="nav-item liMenu">
-                <a class="nav-link menu-text" href="kariyer/" id="kariyer">KARİYER</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link menu-text" href="iletisim/" id="iletisim">İLETİŞİM</a>
-              </li>
-            </ul>
-          </div>
-
-        </nav>
+    <div class="row">
+      <div class="col-12 col-sm-12">
+        <header class="header" id="headerNavbar">
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top absolute-bottom bg-light"
+            style="background-color:#333645 !important">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/teknovellogobeyaz.png" srcset="img/teknovellogobeyaz.png 1x" width="179" height="80"
+                  alt="TEKNOVEL Bilgi ve İletişim Teknolojileri Logo" data-retina_logo_url class="fusion-standard-logo"
+                  id="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ulMenu" style="height: 120px !important;">
+                  <li class="nav-item liMenu menuActive">
+                    <a class="nav-link menu-text menuActive" aria-current="page" href="#">ANA SAYFA</a>
+                  </li>
+                  <li class="nav-item liMenu">
+                    <a class="nav-link menu-text" href="kurumsal/">KURUMSAL</a>
+                  </li>
+                  <li class="nav-item dropdown liMenu">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      HİZMETLERİMİZ
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                      <li class="dropdown-item dropdownLi"><a class="dropdown-item"
+                          href="hizmetlerimiz/cagri-merkezi/">ÇAĞRI MERKEZİ</a></li>
+                      <li class="dropdown-item dropdownLi"><a class="dropdown-item"
+                          href="hizmetlerimiz/cografi-bilgi-sistemleri/">COĞRAFİ BİLGİ SİSTEMLERİ</a></li>
+                      <li class="dropdown-item dropdownLi"><a class="dropdown-item" href="#">TEKNOLOJİ</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item liMenu">
+                    <a class="nav-link menu-text" href="projeler/">PROJELER</a>
+                  </li>
+                  <li class="nav-item liMenu" id="kariyer">
+                    <a class="nav-link menu-text" href="kariyer/">KARİYER</a>
+                  </li>
+                  <li class=" liMenu" id="iletisim">
+                    <a class="nav-link menu-text" href="iletisim/">İLETİŞİM</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </header>
       </div>
-    </header>
+    </div>
+
 
 
 
     <!-- Carousel -->
-
-    <div id="carouselExampleCaptions" class="carousel slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <div class="row">
+      <div class="col-12">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active c-item">
+              <img src="img/cagri_merkezi.jpg" class="d-block w-100 c-img c-img-1" alt="cagri_merkezi">
+              <div class="carousel-content">
+                <div class="carousel-div1">
+                  <i class="fa fa-volume-control-phone fa-4x" aria-hidden="true"></i>
+                  <h1 class="carousel-cagri-h1">ÇAĞRI MERKEZİ</h1>
+                  <div class="carousel-baslik-alt-icon">
+                    <div class="carousel-cagri-cizgi1"></div><i class="fa-solid fa-user fa-xs"></i>
+                    <div class="carousel-cagri-cizgi2"></div>
+                  </div>
+                  <p>Müşteri Hizmetleri Yönetimi, Müşteri Elde Tutma, Backoffice İşlemleri, Tahsilat Takip Hizmeti,
+                    Kalite
+                    Değerlendirme</p>
+                  <a href="iletisim/"><button class="btn btn-primary bizeUlasinBtn1">BİZE ULAŞIN</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item c-item">
+              <img src="img/teknoloji_cozumleri.jpg" class="d-block w-100 c-img" alt="teknoloji_cozumleri">
+              <div class="carousel-content">
+                <div class="carousel-div2">
+                  <i class="fa-solid fa-plug fa-4x"></i>
+                  <h1 class="carousel-teknoloji-h1">TEKNOLOJİ ÇÖZÜMLERİ</h1>
+                  <div class="carousel-baslik-alt-icon">
+                    <div class="carousel-teknoloji-cizgi1"></div><i class="fa fa-bolt" aria-hidden="true"></i>
+                    <div class="carousel-teknoloji-cizgi2"></div>
+                  </div>
+                  <p>Sunucu Sistemleri, Veri Depolama Sistemleri, Ağ ve Güvenlik Çözümleri, Yedekleme Çözümleri, İşletim
+                    Sistemi Kurulum ve Destek Hizmetleri, Veri Merkezi Hizmetleri, Barındırma, Sanallaştırma, Felaket
+                    Kurtarma Merkezi ve İş Sürekliliği, Danışmanlık Hizmetleri, Veri Güvenliği Hizmetleri, Loglama
+                    Yönetimi, Monitoring İşlemleri, Zafiyet Analiz İşlemleri</p>
+                  <a href="iletisim/"><button class="btn btn-primary bizeUlasinBtn2">BİZE ULAŞIN</button></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active c-item">
-          <img src="img/cagri_merkezi.jpg" class="d-block w-100 c-img c-img-1" alt="cagri_merkezi">
-          <div class="carousel-content">
-            <div class="carousel-div1">
-              <i class="fa fa-volume-control-phone fa-4x" aria-hidden="true"></i>
-              <h1 class="carousel-cagri-h1">ÇAĞRI MERKEZİ</h1>
-              <div class="carousel-baslik-alt-icon"><div class="carousel-cagri-cizgi1"></div><i class="fa-solid fa-user fa-xs"></i><div class="carousel-cagri-cizgi2"></div></div>
-              <p>Müşteri Hizmetleri Yönetimi, Müşteri Elde Tutma, Backoffice İşlemleri, Tahsilat Takip Hizmeti, Kalite Değerlendirme</p>
-              <a href="iletisim/"><button class="btn btn-primary bizeUlasinBtn1">BİZE ULAŞIN</button></a>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <!-- Telefon / E-Posta -->
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-sm-12 " id="_anasayfaTelefonDiv">
+              <h3>TELEFON</h3>
+              <p>0312 584 0410</p>
+            </div>
+            <div class="col-lg-6 col-sm-12 " id="_anasayfaEpostaDiv">
+              <h3>E-POSTA</h3>
+              <p>teknovel@teknovel.com.tr</p>
             </div>
           </div>
         </div>
-        <div class="carousel-item c-item">
-          <img src="img/teknoloji_cozumleri.jpg" class="d-block w-100 c-img" alt="teknoloji_cozumleri">
-          <div class="carousel-content">
-            <div class="carousel-div2">
-              <i class="fa-solid fa-plug fa-4x"></i>
-              <h1 class="carousel-teknoloji-h1">TEKNOLOJİ ÇÖZÜMLERİ</h1>
-              <div class="carousel-baslik-alt-icon"><div class="carousel-teknoloji-cizgi1"></div><i class="fa fa-bolt" aria-hidden="true"></i><div class="carousel-teknoloji-cizgi2"></div></div>
-              <p>Sunucu Sistemleri, Veri Depolama Sistemleri, Ağ ve Güvenlik Çözümleri, Yedekleme Çözümleri, İşletim Sistemi Kurulum ve Destek Hizmetleri, Veri Merkezi Hizmetleri, Barındırma, Sanallaştırma, Felaket Kurtarma Merkezi ve İş Sürekliliği, Danışmanlık Hizmetleri, Veri Güvenliği Hizmetleri, Loglama Yönetimi, Monitoring İşlemleri, Zafiyet Analiz İşlemleri</p>
-              <a href="iletisim/"><button class="btn btn-primary bizeUlasinBtn2">BİZE ULAŞIN</button></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-12">
+        <div class="hakkimizdaDiv">
+          <div class="container">
+            <div class="row">
+              <div class="col-12">
+                <h1>HAKKIMIZDA</h1>
+
+                <p>Teknovel çağrı merkezi, coğrafi bilgi sistemleri ve teknoloji çözüm merkezi olarak uzman kadrosu ile
+                  ihtiyaçların en doğru şekilde analizlerini profesyonel yöntemlerle hizmet vermek için çalışmaktadır.
+                </p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-3 col-sm-12">
+                <div class="card card-1-4 text-center">
+                  <div class="card-header">
+                    <i class="fa-solid fa-users fa-2x"></i>
+                    <h4 class="card-header-lider">Lider</h4>
+                  </div>
+                  <p class="card-body">Teknovel Teknoloji, rekabetin değerini bilir; rakiplerine değer vererek mevcut
+                    yerini
+                    korumak ve hatta bir adım daha öteye geçmek için çalışır.</p>
+                  <a href="kurumsal/" class="btn card-footer">Detaylar</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="card card-2-3 text-center">
+                  <div class="card-header">
+                    <i class="fa-solid fa-microchip fa-2x"></i>
+                    <h4 class="card-header-yenilikci">Yenilikçi</h4>
+                  </div>
+                  <p class="card-body">Teknovel Teknoloji, tüm bunların bilinciyle sektördeki yenilikleri yakından takip
+                    eder;
+                    yenilikçi bir yaklaşımla yol alır.</p>
+                  <a href="kurumsal/" class="btn card-footer">Detaylar</a>
+                </div>
+              </div>
+              <div class="col-lg-3  col-sm-12">
+                <div class="card card-2-3 text-center">
+                  <div class="card-header">
+                    <i class="fa-solid fa-shield-halved fa-2x"></i>
+                    <h4 class="card-header-guvenilir">Güvenilir</h4>
+                  </div>
+                  <p class="card-body">Teknovel güven odaklı bir iş ortaklığı oluşturmaya özen göstermekte ve
+                    ihtiyaçların
+                    zamanında karşılanmasına yönelik çözümler sunmaktadır.</p>
+                  <a href="kurumsal/" class="btn card-footer">Detaylar</a>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <div class="card card-1-4 text-center">
+                  <div class="card-header">
+                    <i class="fa-solid fa-star fa-2x"></i>
+                    <h4 class="card-header-musteri">Müşteri Odaklı</h4>
+                  </div>
+                  <p class="card-body">Teknovel Teknoloji, müşteri memnuniyetinin önemini bilir ve müşteri ile aynı
+                    doğrultuda
+                    yol almak için çalışır.</p>
+                  <a href="kurumsal/" class="btn card-footer">Detaylar</a>
+                </div>
+              </div>
             </div>
           </div>
-        </div> 
+        </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-        <span><i class="fa fa-chevron-left fa-3x" aria-hidden="true"></i></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-        <span><i class="fa fa-chevron-right fa-3x" aria-hidden="true"></i></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-
-<!-- Telefon / E-Posta -->
-
-<div id="anasayfaTelefonDiv">
-  <h3>TELEFON</h3>
-  <p>0312 584 0410</p>
-</div>
-<div id="anasayfaEpostaDiv">
-  <h3>E-POSTA</h3>
-  <p>teknovel@teknovel.com.tr</p>
-</div>
-<div class="verticalLine"></div>
-
-<!-- Hakkımızda -->
-<div class="container-lg-fluid cards-container">
-  
-  <div class="hakkimizdaDiv">
-    <h1>HAKKIMIZDA</h1>
-    <hr>
-    <p>Teknovel çağrı merkezi, coğrafi bilgi sistemleri ve teknoloji çözüm merkezi olarak uzman kadrosu ile ihtiyaçların en doğru şekilde analizlerini profesyonel yöntemlerle hizmet vermek için çalışmaktadır.</p>
-  </div>
-
-<!-- Card -->
-
-  <div class="container card-container">
-    <div class="card card-1-4 text-center">
-      <div class="card-header">
-        <i class="fa-solid fa-users fa-2x"></i>
-        <h4 class="card-header-lider">Lider</h4>
+    <!-- Card -->
+    <div class="row">
+      <div class="col-12">
+        <!-- İletişim -->
+        <div class="anasayfaIletisimVerticalDiv">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 col-sm-12">
+                <div class="_anasayfaIletisimVerticalP">
+                  <span>
+                    <p>Bilgi işlem altyapı sistemlerinizi daha verimli ve güvenli hale getirmek için bize ulaşın.</p>
+                  </span>
+                </div>
+              </div>
+              <div class="col-lg-3 col-sm-12">
+                <span>
+                  <a class="anasayfaIletisimVerticalA" href="iletisim/">İLETİŞİM</a>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-        <p class="card-body">Teknovel Teknoloji, rekabetin değerini bilir; rakiplerine değer vererek mevcut yerini korumak ve hatta bir adım daha öteye geçmek için çalışır.</p>
-        <a href="kurumsal/" class="btn card-footer">Detaylar</a>
-    </div>
-
-    <div class="card card-2-3 text-center">
-      <div class="card-header">
-        <i class="fa-solid fa-microchip fa-2x"></i>
-        <h4 class="card-header-yenilikci">Yenilikçi</h4>
-      </div>
-        <p class="card-body">Teknovel Teknoloji, tüm bunların bilinciyle sektördeki yenilikleri yakından takip eder; yenilikçi bir yaklaşımla yol alır.</p>
-        <a href="kurumsal/" class="btn card-footer">Detaylar</a>
-    </div>
-
-    <div class="card card-2-3 text-center">
-      <div class="card-header">
-        <i class="fa-solid fa-shield-halved fa-2x"></i>
-        <h4 class="card-header-guvenilir">Güvenilir</h4>
-      </div>
-        <p class="card-body">Teknovel güven odaklı bir iş ortaklığı oluşturmaya özen göstermekte ve ihtiyaçların zamanında karşılanmasına yönelik çözümler sunmaktadır.</p>
-        <a href="kurumsal/" class="btn card-footer">Detaylar</a>
-    </div>
-
-    <div class="card card-1-4 text-center">
-      <div class="card-header">
-        <i class="fa-solid fa-star fa-2x"></i>
-        <h4 class="card-header-musteri">Müşteri Odaklı</h4>
-      </div>
-        <p class="card-body">Teknovel Teknoloji, müşteri memnuniyetinin önemini bilir ve müşteri ile aynı doğrultuda yol almak için çalışır.</p>
-        <a href="kurumsal/" class="btn card-footer">Detaylar</a>
     </div>
   </div>
-</div>
+  <!-- Footer -->
 
+  <footer class="footer1">
+    <div class="container">
 
-</div>
-</div>
-
-
-<!-- İletişim -->
-
-<div class="anasayfaIletisimVerticalDiv">
-  <div class="anasayfaIletisimVerticalP">
-    <span><p>Bilgi işlem altyapı sistemlerinizi daha verimli ve güvenli hale getirmek için bize ulaşın.</p></span>
-  </div>
-  <span>
-    <a class="anasayfaIletisimVerticalA" href="iletisim/">İLETİŞİM</a>
-  </span>
-</div>
-
-
-<!-- Footer -->
-
-<footer class="footer1">
-  <div class="container">
-
-      <div class="sec footerSocials">
-
-        <ul class="footerSocialList">
-          <li class="footerTwitter"><a href="https://x.com/teknovelbilisim"><i class="fa-brands fa-x-twitter fa-2x"></i></a></li>
-          <li class="footerFacebook"><a href="https://www.facebook.com/teknovel"><i class="fa-brands fa-facebook-f fa-2x"></i></a></li>
-          <li class="footerInstagram"><a href="https://www.instagram.com/teknovel"><i class="fa-brands fa-instagram fa-2x"></i></a></li>
-          <li class="footerLinkedin"><a href="https://www.linkedin.com/company/teknovel-bilgi-ve-i%CC%87leti%C5%9Fim-teknolojileri/"><i class="fa-brands fa-linkedin-in fa-2x"></i></a></li>
-        </ul>
-
-        <ul class="footerIletisim">
-          <span>
-            <h4>İLETİŞİM</h4>
-            <p>Kızılırmak Mh. Ufuk Üniversitesi
-              Cd. No: 13B/3 Çankaya/ ANKARA</p>
+      <div class="row">
+        <div class="col-lg-4 col-sm-12">
+          <ul class="footerSocialList">
+            <li class="footerTwitter"><a href="https://x.com/teknovelbilisim"><i
+                  class="fa-brands fa-x-twitter fa-2x"></i></a></li>
+            <li class="footerFacebook"><a href="https://www.facebook.com/teknovel"><i
+                  class="fa-brands fa-facebook-f fa-2x"></i></a></li>
+            <li class="footerInstagram"><a href="https://www.instagram.com/teknovel"><i
+                  class="fa-brands fa-instagram fa-2x"></i></a></li>
+            <li class="footerLinkedin"><a
+                href="https://www.linkedin.com/company/teknovel-bilgi-ve-i%CC%87leti%C5%9Fim-teknolojileri/"><i
+                  class="fa-brands fa-linkedin-in fa-2x"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <ul class="footerIletisim">
+            <span>
+              <h4>İLETİŞİM</h4>
+              <p>Kızılırmak Mh. Ufuk Üniversitesi
+                Cd. No: 13B/3 Çankaya/ ANKARA</p>
               <li><a href="iletisim/">0312 584 0410</a></li>
               <li><a href="iletisim/">teknovel@teknovel.com.tr</a></li>
-          </span>
-        </ul>
+            </span>
+          </ul>
+        </div>
+        <div class="col-lg-4 col-sm-12">
+          <ul class="footerHizmetList">
+            <span>
+              <h4>HİZMETLERİMİZ</h4>
+              <li><a href="hizmetlerimiz/cagri-merkezi/">ÇAĞRI MERKEZİ</a></li>
+              <hr>
+              <li><a href="hizmetlerimiz/cografi-bilgi-sistemleri/">COĞRAFİ BİLGİ SİSTEMLERİ</a></li>
+              <hr>
+              <li><a href="#">TEKNOLOJİ</a></li>
+            </span>
+          </ul>
+        </div>
+
+      </div>
+      <div class="sec footerSocials">
+
+        
+
+      
 
       </div>
 
       <div class="sec footerHizmet">
-        <ul class="footerHizmetList">
-          <span>
-            <h4>HİZMETLERİMİZ</h4>
-            <li><a href="hizmetlerimiz/cagri-merkezi/">ÇAĞRI MERKEZİ</a></li><hr>
-            <li><a href="hizmetlerimiz/cografi-bilgi-sistemleri/">COĞRAFİ BİLGİ SİSTEMLERİ</a></li><hr>
-            <li><a href="#">TEKNOLOJİ</a></li>
-          </span>
-        </ul>
+     
       </div>
-      
-   
-  </div>
 
-</footer>
 
-<footer class="footer2">
-  <div class="container-lg-fluid">
-
-    <div class="footerKVKK">
-      <strong><a href="Teknovel_KVKK_metni.pdf" target="_blank">KVKK Aydınlatma Metni</a></strong>
-      <p>Copyright 2020 Teknovel | Tüm Hakları Saklıdır | Tasarım: AG Design</p>
     </div>
 
+  </footer>
+
+  <footer class="footer2">
+    <div class="container-lg-fluid">
+
+      <div class="footerKVKK">
+        <strong><a href="Teknovel_KVKK_metni.pdf" target="_blank">KVKK Aydınlatma Metni</a></strong>
+        <p>Copyright 2020 Teknovel | Tüm Hakları Saklıdır | Tasarım: AG Design</p>
+      </div>
+
+    </div>
+
+
+  </footer>
+
+  <!-- Back to Top Button -->
+
+  <a href="#" class="back-to-top">
+    <span><i class="fa-solid fa-angle-up"></i></span>
+  </a>
+
+
+
+
+
   </div>
-
-
-</footer>
-
-<!-- Back to Top Button -->
-
-<a href="#" class="back-to-top">
-  <span><i class="fa-solid fa-angle-up"></i></span>
-</a>
-
-
-
-
-  
-</div>
 
 
 
 
   <!-- Bootstrap JS -->
-  <script src="js/bootstrap.min.js"></script>
-  <script src="js/bootstrap.js"></script>
-  <script src="js/bootstrap.bundle.js"></script>
-  <script src="js/bootstrap.bundle.min.js"></script>
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
 </body>
+
 </html>
