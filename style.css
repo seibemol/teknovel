@@ -958,9 +958,9 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
-  padding-bottom: 350px;
+  /*padding-bottom: 350px;*/
   padding-top: 75px;
-  height: 700px !important;
+  /*height: 700px !important;*/
   z-index: -100;
 }
 
@@ -973,7 +973,7 @@ html {
   opacity: 10000 !important;
 }
 
-.kurumsalHakkimizdaDiv hr {
+/*.kurumsalHakkimizdaDiv hr {
   width: 200px;
   color: #292b37;
   background-color: #292b37 !important;
@@ -981,7 +981,7 @@ html {
   border-top: 2px solid #292b37;
   margin-left: 850px;
   margin-top: 30px;
-}
+}*/
 
 .kurumsalHakkimizdaDiv p {
   color: #5f616f;
@@ -989,19 +989,23 @@ html {
   font-size: 17px;
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
-  padding: 20px 400px;
+  padding: 20px;
   margin-bottom: 100px;
 }
 
 .kurumsalPolitikaMainDiv {
-  height: 1300px;
-}
-
-.kurumsalPolitikamizDiv {
+  /*height: 1300px;*/
+  position: static;
   background-image: url(img/kurumsal_politikamiz.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1300px;
+}
+
+.kurumsalPolitikamizDiv {
+  /*background-image: url(img/kurumsal_politikamiz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 1300px;*/
 }
 
 .kurumsalPolitikamizDiv h1 {
@@ -1013,6 +1017,7 @@ html {
   opacity: 10000 !important;
 }
 
+/*
 .kurumsalPolitikamizDiv hr {
   width: 200px;
   color: #8f919b;
@@ -1021,7 +1026,7 @@ html {
   border-top: 2px solid #8f919b;
   margin-left: 850px;
   margin-top: 30px;
-}
+}*/
 
 .kurumsalPolitikamizDiv p {
   color: #8f919b;
@@ -1029,7 +1034,7 @@ html {
   font-size: 17px;
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
-  padding: 20px 400px;
+  padding: 20px;
   margin-bottom: 100px;
 }
 
@@ -1041,11 +1046,13 @@ html {
   font-family: 'Work Sans', sans-serif;
   font-weight: 550 !important;
   padding: 14px 20px;
-  margin: 0px 880px;
+  /*margin: 0px 880px;*/
   margin-top: -100px !important;
-  height: 45px !important; /* bg boyutu */
+  /*height: 45px !important; /* bg boyutu */
   text-align: center;
-  position: relative;
+  align-items: center;
+  justify-content: center;
+  /*position: relative;*/
 }
 
 .kurumsalPolitikamizDiv #iletisim:hover {
@@ -1053,18 +1060,19 @@ html {
   background-color: #168abc !important;
 }
 
+
 .kurumsalMisyonDiv {
-  position: absolute;
-  margin-top: -700px;
+ position: absolute;
+   /*margin-top: -700px;
   margin-left: 400px;
   margin-right: 750px;
-  margin-bottom: 500px;
+  margin-bottom: 500px;*/
 }
 
 .kurumsalMisyonDiv h3 {
   font-family: 'Exo 2', sans-serif;
   color: #8cd4dd;
-  padding-bottom: 10px;
+  /*padding-bottom: 10px;*/
 }
 
 .kurumsalMisyonDiv p {
@@ -1084,9 +1092,9 @@ html {
   display: inline;
   height:28.9px;
   width:28.9px;
-  margin-right:11.9px;
+  /*margin-right:11.9px;
   margin-left: -30px;
-  margin-bottom: -30px !important;
+  margin-bottom: -30px !important;*/
 }
 
 .fa-bolt-lightning {
@@ -1094,18 +1102,20 @@ html {
 }
 
 .kurumsalHedefList p {
-  margin-top: -27px;
-  margin-left: 10px;
+  /*margin-top: -27px;
+  margin-left: 10px;*/
 }
 
 .degerlerimizDiv {
-  position: relative;
+  /*position: relative;*/
   background-color: white;
   text-align: center;
-  width: 350px;
-  height: 330px;
+  position: absolute !important;
+  /*padding-bottom: 20px;*/
+  /*width: 350px;
+ height: 330px;
   margin-left: 1200px;
-  margin-top: -692px;
+  margin-top: -692px;*/
 }
 
 .degerlerimizDiv h4 {
@@ -1134,16 +1144,18 @@ html {
 }
 
 .kurumsalTelefonDiv {
-  position: relative;
+  /*position: relative;*/
   font-family: 'Exo 2', sans-serif;
-  margin-top: 70px;
+  position: absolute !important;
+
+  /*margin-top: 70px;*/
 }
 
 .kurumsalTelefonDiv a {
   color: white;
   background-color: #8cd4dd;
-  padding: 30px 110px;
-  margin-left: 1200px;
+  padding: 30px;
+  /*margin-left: 1200px;*/
   font-size: 16px;
   text-decoration: none;
   text-align: center;
@@ -1151,7 +1163,7 @@ html {
 
 .fa-phone {
   color: white;
-  padding-right: 10px;
+  margin-left: 10px;
 }
 
 
