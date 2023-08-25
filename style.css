@@ -1256,7 +1256,7 @@ html {
   border-top: 6px solid #168abc;
   padding: 40px;
   padding-top: 20px;
-  box-shadow: 1px 1px 1500px rgb(190, 192, 201);
+  box-shadow: 1px 1px 20px rgb(215, 216, 221), 1px 1px 20px rgb(215, 216, 221), 1px 1px 20px rgb(215, 216, 221);
   justify-content: center;
 }
 
@@ -1369,7 +1369,7 @@ html {
   border-top: 6px solid #168abc;
   padding: 40px;
   padding-top: 20px;
-  box-shadow: 1px 1px 1500px rgb(190, 192, 201);
+  box-shadow: 1px 1px 20px rgb(215, 216, 221), 1px 1px 20px rgb(215, 216, 221), 1px 1px 20px rgb(215, 216, 221);
   justify-content: center;
 }
 
@@ -1433,7 +1433,7 @@ html {
   border-top: 6px solid #168abc;
   padding: 40px;
   padding-top: 20px;
-  box-shadow: 1px 1px 1500px rgb(190, 192, 201);
+  box-shadow: 1px 1px 20px rgb(215, 216, 221), 1px 1px 20px rgb(215, 216, 221), 1px 1px 20px rgb(215, 216, 221);
   justify-content: center;
 }
 
