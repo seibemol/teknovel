@@ -1687,13 +1687,22 @@ input[type=file]::file-selector-button:hover {
   color: #5f616f;
   text-align: center;
   padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .iletisimFormDiv {
   background-color: #333645;
   height: 1100px;
-  padding-left: 165px;
+  /*padding-left: 165px;*/
   margin-top: -170px;
+}
+
+.iletisimFormDiv .container {
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .iletisimFormDiv h3 {
@@ -1701,14 +1710,14 @@ input[type=file]::file-selector-button:hover {
   font-family: 'Exo 2', sans-serif;
   padding-top: 100px;
   padding-bottom: 15px;
-  margin-left: 230px;
+  /*margin-left: 230px;*/
 }
 
 .iletisimFormDiv hr {
   color: white;
   width: 200px;
   margin-bottom: 50px;
-  margin-left: 230px;
+  /*margin-left: 230px;*/
 }
 
 .iletisimAdSoyadDiv {
@@ -1717,7 +1726,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: 30px;
-  margin-left: 230px;
+  /*margin-left: 230px;*/
 }
 
 #iletisimAdSoyad {
@@ -1734,7 +1743,7 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: -85px;
-  margin-left: 630px;
+  /*margin-left: 630px;*/
 }
 
 #iletisimEposta {
