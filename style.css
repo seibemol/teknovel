@@ -1001,12 +1001,12 @@ html {
   background-repeat: no-repeat;
 }
 
-.kurumsalPolitikamizDiv {
-  /*background-image: url(img/kurumsal_politikamiz.png);
+/*.kurumsalPolitikamizDiv {
+  background-image: url(img/kurumsal_politikamiz.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1300px;*/
-}
+  height: 1300px;
+}*/
 
 .kurumsalPolitikamizDiv h1 {
   color: white;
@@ -1101,10 +1101,10 @@ html {
   color: #179dbe !important;
 }
 
-.kurumsalHedefList p {
-  /*margin-top: -27px;
-  margin-left: 10px;*/
-}
+/*.kurumsalHedefList p {
+  margin-top: -27px;
+  margin-left: 10px;
+}*/
 
 .degerlerimizDiv {
   /*position: relative;*/
@@ -1422,12 +1422,12 @@ html {
   text-transform: uppercase;
   z-index: 1;
   margin-top: 205px;
-  margin-left: 870px;
+  /*margin-left: 870px;*/
 }
 
 .kariyerMainDiv {
-  margin-left: 390px;
-  margin-right: 350px;
+  /*margin-left: 390px;
+  margin-right: 350px;*/
   margin-top: 40px;
   margin-bottom: 40px;
   background-color: white;
@@ -1444,6 +1444,8 @@ html {
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
   line-height: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .kariyerMainDiv .kariyerP1 {
@@ -1465,12 +1467,21 @@ html {
   font-size: 26px;
   color: black;
   padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .kariyerFormHr {
   color: black;
   background-color: black;
   border-top: 2px solid black;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.kariyerMainDiv form {
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .adSoyadDiv {
@@ -1482,7 +1493,7 @@ html {
 }
 
 #adSoyad {
-  width: 340px;
+  width: 360px;
   height: 40px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1494,12 +1505,12 @@ html {
   font-size: 12px;
   font-weight: 700;
   color: #8f919b;
-  margin-left: 370px;
-  margin-top: -63px;
+  /*margin-left: 370px;
+  margin-top: -63px;*/
 }
 
 #telefon {
-  width: 340px;
+  width: 360px;
   height: 40px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1514,12 +1525,12 @@ html {
   font-size: 12px;
   font-weight: 700;
   color: #8f919b;
-  margin-left: 741px;
-  margin-top: -63px;
+  /*margin-left: 741px;
+  margin-top: -63px;*/
 }
 
 #eposta {
-  width: 340px;
+  width: 360px;
   height: 40px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1531,11 +1542,11 @@ html {
   font-size: 12px;
   font-weight: 700;
   color: #8f919b;
-  margin-top: 60px;
+  /*margin-top: 60px;*/
 }
 
 #lisans {
-  width: 530px;
+  width: 565px;
   height: 40px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1550,12 +1561,12 @@ html {
   font-size: 12px;
   font-weight: 700;
   color: #8f919b;
-  margin-top: -63px;
-  margin-left: 550px;
+  /*margin-top: -63px;
+  margin-left: 550px;*/
 }
 
 #basvuruBolum {
-  width: 530px;
+  width: 565px;
   height: 40px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1570,7 +1581,7 @@ html {
   font-size: 12px;
   font-weight: 700;
   color: #8f919b;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
 }
 
 #mesaj {
@@ -1602,8 +1613,8 @@ html {
   font-size: 12px;
   font-weight: 700;
   color: #8f919b;
-  margin-top: -245px;
-  margin-left: 581px;
+  /*margin-top: -245px;
+  margin-left: 581px;*/
   width: 500px;
   height: 250px;
 }
