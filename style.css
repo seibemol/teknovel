@@ -1240,8 +1240,16 @@ html {
   text-transform: uppercase;
   z-index: 10;
   margin-top: 205px;
+  padding-left: 800px;
   /*margin-left: 800px;*/
 }
+
+@media (max-width: 576px) {
+  .cagriBaslikH2 {
+    padding-left: 30px;
+  }
+}
+
 
 .cagriMainDiv {
   /*margin-left: 390px;
@@ -1293,7 +1301,14 @@ html {
   text-align: center;
   z-index: 10;
   margin-top: 205px;
+  padding-left: 700px;
   /*margin-left: 700px;*/
+}
+
+@media (max-width: 576px) {
+  .cografiBaslikH2 {
+    padding-left: 0px;
+  }
 }
 
 .cografiMainDiv {
