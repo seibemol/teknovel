@@ -1021,10 +1021,11 @@ html {
 
 .kurumsalPolitikaMainDiv {
   /*height: 1300px;*/
-  position: static;
+  position: relative;
   background-image: url(img/kurumsal_politikamiz.png);
   background-size: cover;
   background-repeat: no-repeat;
+  height: 1200px;
 }
 
 /*.kurumsalPolitikamizDiv {
@@ -1061,10 +1062,10 @@ html {
   line-height: 1.8em;
   font-family: 'Work Sans', sans-serif;
   padding: 20px;
-  margin-bottom: 100px;
+  /*margin-bottom: 100px;*/
 }
 
-.kurumsalPolitikamizDiv #iletisim {
+.kurumsalPolitikamizDiv #iletisimKurumsal {
   background-color: #179dbe;
   border-radius: 2px;
   line-height: 16px !important;
@@ -1081,7 +1082,7 @@ html {
   /*position: relative;*/
 }
 
-.kurumsalPolitikamizDiv #iletisim:hover {
+.kurumsalPolitikamizDiv #iletisimKurumsal:hover {
   color: white !important;
   background-color: #168abc !important;
 }
@@ -1089,10 +1090,11 @@ html {
 
 .kurumsalMisyonDiv {
  position: absolute;
+ display: inline-block;
    /*margin-top: -700px;
   margin-left: 400px;
-  margin-right: 750px;
-  margin-bottom: 500px;*/
+  margin-right: 750px;*/
+  margin-bottom: 50px;
 }
 
 .kurumsalMisyonDiv h3 {
@@ -1107,6 +1109,28 @@ html {
   line-height: 30px;
   font-size: 17px;
 }
+
+.kurumsalVizyonDiv {
+  position: absolute;
+  display: inline-block;
+    /*margin-top: -700px;
+   margin-left: 400px;
+   margin-right: 750px;*/
+   margin-bottom: 50px;
+ }
+ 
+ .kurumsalVizyonDiv h3 {
+   font-family: 'Exo 2', sans-serif;
+   color: #8cd4dd;
+   /*padding-bottom: 10px;*/
+ }
+ 
+ .kurumsalVizyonDiv p {
+   font-family: 'Work Sans', sans-serif;
+   color: #8f919b;
+   line-height: 30px;
+   font-size: 17px;
+ }
 
 .kurumsalHedefList {
   list-style: none;
