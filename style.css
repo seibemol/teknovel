@@ -84,6 +84,13 @@ header {
   margin-right: 40px;
 }
 
+@media (max-width: 768px) {
+  #logo {
+    margin: 0;
+    margin-left: 10px;
+  }
+}
+
 .navbar ul {
   margin-left: 183px !important;
   margin-bottom: 3px !important;
@@ -435,9 +442,10 @@ header {
 #anasayfaTelefonDiv {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
+  padding: 10px 0px 30px 0px;
   letter-spacing: 1px;
-  margin-left: -590px;
-  margin-top: 30px;
+  /*margin-left: -590px;
+  margin-top: 30px;*/
 }
 
 #anasayfaTelefonDiv h3 {
@@ -459,9 +467,10 @@ header {
 #anasayfaEpostaDiv {
   font-family: 'Work Sans', sans-serif;
   text-align: center;
+  padding: 10px 0px 30px 0px;
   letter-spacing: 1px;
-  margin-left: 590px;
-  margin-top: -80px;
+  /*margin-left: 590px;
+  margin-top: -80px;*/
 }
 
 #anasayfaEpostaDiv h3 {
@@ -481,7 +490,7 @@ header {
   justify-content: flex-end;
 }
 
-.verticalLine {
+/*.verticalLine {
   border-right: 1px solid #5f616f;
   opacity: 0.1;
   height: 140px;
@@ -489,7 +498,7 @@ header {
   margin-left: 950px;
   margin-top: -130px;
   margin-bottom: 20px;
-}
+}*/
 
 .hakkimizdaDiv {
   /* position: relative; */
@@ -671,11 +680,12 @@ header {
 .anasayfaIletisimVerticalP {
   display: inline-block;
   font-family: 'Exo 2', sans-serif;
-  font-size: 26px;
+  font-size: 24px;
   color: white;
   text-align: center;
-  margin-top: 70px;
-  margin-bottom: 120px;
+  padding: 80px 0px;
+  /*margin-top: 70px;
+  margin-bottom: 120px;*/
   /*margin-left: 640px;*/
   line-height: 1.5 !important;
 }
@@ -688,6 +698,7 @@ header {
 }
 
 .anasayfaIletisimVerticalA {
+  display: inline-block !important;
   font-family: 'Work Sans', sans-serif;
   font-size: 17px;
   font-weight: 500;
@@ -698,15 +709,30 @@ header {
   background-color: #8cd4dd;
   border: none;
   border-radius: 3px;
+  align-items: center;
+  justify-content: center;
   /*position: absolute;*/
   padding: 16px 90px;
+  margin: 80px 20px;
   /*margin-left: 60px;*/
-  margin-top: 10px;
+  /*margin-top: 10px;*/
 }
 
 .anasayfaIletisimVerticalA:hover {
   color: black;
   background-color: white;
+}
+
+@media (max-width: 768px) {
+  .anasayfaIletisimVerticalA {
+    align-self: center !important;
+    margin: 10px;
+  }
+
+  .anasayfaIletisimVerticalP {
+    margin: 10px;
+
+  }
 }
 
 /* Footer */
