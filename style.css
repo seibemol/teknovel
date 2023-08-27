@@ -543,10 +543,10 @@ header {
 
 /* Cards */
 
-.card-container {
+/*.card-container {
   margin-left: 380px !important;
   margin-top: -550px;
-}
+}*/
 
 .card {
   /*width: 270px;*/
@@ -559,7 +559,7 @@ header {
   vertical-align: bottom !important;
   align-items: center !important;
   justify-content: center !important;
-  margin-right: 20px !important;
+  /*margin-right: 20px !important;*/
   position: relative;
 }
 
