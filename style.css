@@ -1828,7 +1828,7 @@ input[type=file]::file-selector-button:hover {
 }
 
 .iletisimFormDiv .container {
-  padding-left: 40px;
+  padding-left: 80px;
   padding-right: 40px;
   align-items: center;
   justify-content: center;
@@ -1997,7 +1997,7 @@ input[type=file]::file-selector-button:hover {
   text-align: center;
   width: 350px;
   height: 230px;
-  margin-left: 820px;
+  margin-left: 800px;
   /*margin-top: -590px;*/
 }
 
@@ -2039,7 +2039,7 @@ input[type=file]::file-selector-button:hover {
   color: white;
   background-color: #5f616f;
   padding: 30px 110px;
-  margin-left: 820px;
+  margin-left: 800px;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
@@ -2055,7 +2055,7 @@ input[type=file]::file-selector-button:hover {
   color: white;
   background-color: #5f616f;
   padding: 30px 69px;
-  margin-left: 820px;
+  margin-left: 800px;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
@@ -2065,3 +2065,18 @@ input[type=file]::file-selector-button:hover {
   padding-right: 10px !important;
 }
 
+@media screen and (max-width: 576px) {
+  #iletisimAdSoyad {
+    width: 200px;
+  }
+  #iletisimEposta {
+  width: 200px;
+  margin-left: 20px !important;
+  }
+  #iletisimTelefon {
+  width: 200px;
+  }
+  #iletisimTCKN {
+  width: 200px;
+  }
+}
