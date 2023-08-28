@@ -1859,7 +1859,7 @@ input[type=file]::file-selector-button:hover {
 }
 
 #iletisimAdSoyad {
-  width: 375px;
+  width: 370px;
   height: 50px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1871,12 +1871,12 @@ input[type=file]::file-selector-button:hover {
   font-size: 17px;
   font-weight: 800;
   color: #8f919b;
-  margin-top: -85px;
-  /*margin-left: 630px;*/
+  margin-top: -86px;
+  margin-left: 400px;
 }
 
 #iletisimEposta {
-  width: 375px;
+  width: 370px;
   height: 50px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1893,7 +1893,7 @@ input[type=file]::file-selector-button:hover {
 }
 
 #iletisimTelefon {
-  width: 375px;
+  width: 370px;
   height: 50px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1906,11 +1906,11 @@ input[type=file]::file-selector-button:hover {
   font-weight: 800;
   color: #8f919b;
   margin-top: -85px;
-  margin-left: 630px;
+  margin-left: 400px;
 }
 
 #iletisimTCKN {
-  width: 375px;
+  width: 370px;
   height: 50px;
   background-color: #ededed;
   border: 1px solid black;
@@ -1987,7 +1987,7 @@ input[type=file]::file-selector-button:hover {
 
 .iletisimRightDiv {
   position: absolute;
-  margin-left: 50px;
+  /*margin-left: 50px;*/
   margin-top: -53px;
 }
 
@@ -1997,8 +1997,8 @@ input[type=file]::file-selector-button:hover {
   text-align: center;
   width: 350px;
   height: 230px;
-  margin-left: 980px;
-  margin-top: -692px;
+  margin-left: 820px;
+  /*margin-top: -590px;*/
 }
 
 .iletisimAdresDiv h4 {
@@ -2039,7 +2039,7 @@ input[type=file]::file-selector-button:hover {
   color: white;
   background-color: #5f616f;
   padding: 30px 110px;
-  margin-left: 980px;
+  margin-left: 820px;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
@@ -2055,7 +2055,7 @@ input[type=file]::file-selector-button:hover {
   color: white;
   background-color: #5f616f;
   padding: 30px 69px;
-  margin-left: 980px;
+  margin-left: 820px;
   font-size: 16px;
   text-decoration: none;
   text-align: center;
