@@ -1025,7 +1025,6 @@ html {
   background-image: url(img/kurumsal_politikamiz.png);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 1200px;
 }
 
 /*.kurumsalPolitikamizDiv {
@@ -1065,16 +1064,18 @@ html {
   /*margin-bottom: 100px;*/
 }
 
-.kurumsalPolitikamizDiv #iletisimKurumsal {
-  background-color: #179dbe;
+ #iletisimKurumsal {
+  background-color: #179dbe!important;
   border-radius: 2px;
   line-height: 16px !important;
   font-size: 14px;
   font-family: 'Work Sans', sans-serif;
   font-weight: 550 !important;
   padding: 14px 20px;
+  color: #fff !important;
+  text-decoration: none;
   /*margin: 0px 880px;*/
-  margin-top: -100px !important;
+ 
   /*height: 45px !important; /* bg boyutu */
   text-align: center;
   align-items: center;
@@ -1089,12 +1090,13 @@ html {
 
 
 .kurumsalMisyonDiv {
- position: absolute;
  display: inline-block;
    /*margin-top: -700px;
   margin-left: 400px;
   margin-right: 750px;*/
   margin-bottom: 50px;
+  padding: 20px;
+  padding-top: 50px !important;
 }
 
 .kurumsalMisyonDiv h3 {
@@ -1110,13 +1112,15 @@ html {
   font-size: 17px;
 }
 
+.misyonP {
+  margin-bottom: 20px !important;
+}
+
 .kurumsalVizyonDiv {
-  position: absolute;
   display: inline-block;
     /*margin-top: -700px;
    margin-left: 400px;
    margin-right: 750px;*/
-   margin-bottom: 50px;
  }
  
  .kurumsalVizyonDiv h3 {
@@ -1132,18 +1136,32 @@ html {
    font-size: 17px;
  }
 
+ .kurumsalHedefDiv {
+  display: inline-block;
+  margin-top: -60px;
+  margin-left: -12px;
+ }
+
 .kurumsalHedefList {
   list-style: none;
   font-family: 'Work Sans', sans-serif;
   color: #8f919b;
+  font-size: 17px;
+  line-height: 30px;
+  /*margin-top: 320px;*/
+}
+
+.kurumsalHedefList h3 {
+  font-family: 'Exo 2', sans-serif;
+  color: #8cd4dd;
 }
 
 .kurumsalHedefIcon {
-  display: inline;
+  /*display: inline;*/
   height:28.9px;
   width:28.9px;
-  /*margin-right:11.9px;
-  margin-left: -30px;
+  margin-right:11.9px;
+  /*margin-left: -30px;
   margin-bottom: -30px !important;*/
 }
 
@@ -1240,8 +1258,8 @@ html {
   text-transform: uppercase;
   z-index: 10;
   margin-top: 205px;
-  padding-left: 800px;
-  /*margin-left: 800px;*/
+  /*padding-left: 800px;
+  margin-left: 800px;*/
 }
 
 @media (max-width: 576px) {
