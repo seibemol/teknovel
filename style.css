@@ -1523,23 +1523,35 @@ html {
 /* KARİYER */
 
 .kariyerBaslikDiv {
+  display: grid;
   height: 330px;
   background-image: url(img/cagri_merkezi.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.5);
+}
+
+.kariyerBaslikDiv h2 {
+  color: white !important;
 }
 
 .kariyerBaslikH2 {
-  position: absolute;
+  display: grid;
   color: white !important;
   font-family: 'Exo 2', sans-serif;
   font-size: 45px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
   text-transform: uppercase;
-  z-index: 1;
-  margin-top: 205px;
+  margin-top: 200px;
   /*margin-left: 870px;*/
+}
+
+@media screen and (max-width: 576px) {
+  .kariyerBaslikH2 {
+    text-align: center !important;
+  }
 }
 
 .kariyerMainDiv {
