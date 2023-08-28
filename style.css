@@ -84,10 +84,15 @@ header {
   margin-right: 40px;
 }
 
-@media (max-width: 768px) {
+@media (max-width < 576px) {
   #logo {
     margin: 0;
     margin-left: 10px;
+  }
+}
+@media (max-width < 768px) {
+  #logo {
+    margin-left: 0 !important;
   }
 }
 
@@ -132,6 +137,14 @@ header {
 
 .liMenu .active a {
   color: #8cd4dd;
+}
+
+@media (max-width < 992px) {
+  .navbar-collapse .show .ulMenu {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    margin-bottom: 0 !important;
+  }
 }
 
 .nav-link {
@@ -229,6 +242,48 @@ header {
   color: white !important;
 }
 
+/* Navbar Responsive Menu 
+
+.navbar-toggler .navbar-toggler-icon {
+  color: #8cd4dd !important;
+  border: none !important;
+  cursor: pointer;
+  display: none;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar .nav-item {
+    display: none;
+  }
+  .navbar .navbar-toggler-icon {
+    display: block;
+  }
+}*/
+
+/* Header Dropdown 
+.header-dropdown {
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  width: 300px;
+  background: #333;
+  overflow: hidden;
+}
+
+.header-dropdown li {
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important;
+}
+
+.header-dropdown #iletisim {
+  background: none !important;
+}*/
+
+
+
 .bizeUlasinBtn1 {
   font-size: 15px !important;
   font-family: "Work Sans", sans-serif !important;
@@ -283,10 +338,6 @@ header {
   height: 900px;
   object-fit: cover;
   filter: brightness(0.8);
-}
-
-.c-img-1 {
-  filter: brightness(0.4) !important;
 }
 
 .carousel-content {
