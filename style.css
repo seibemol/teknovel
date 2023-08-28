@@ -1305,30 +1305,35 @@ html {
 /* HİZMETLERİMİZ - COĞRAFİ BİLGİ SİSTEMLERİ */
 
 .cografiBaslikDiv {
+  display: grid;
   height: 330px;
   background-image: url(img/teknoloji_cozumleri.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.8);
+}
+
+.cografiBaslikDiv h2 {
+  color: white !important;
 }
 
 .cografiBaslikH2 {
-  position: absolute;
+  display: grid;
   color: white !important;
   font-family: 'Exo 2', sans-serif;
   font-size: 45px;
-  text-transform: uppercase;
   text-align: center;
-  z-index: 10;
-  margin-top: 205px;
-  padding-left: 700px;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  margin-top: 200px;
   /*margin-left: 700px;*/
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .cografiBaslikH2 {
-    padding-left: 0px;
+    text-align: center !important;
+    margin-top: 180px;
   }
 }
 
@@ -1390,7 +1395,18 @@ html {
   color: #179dbe !important;
 }
 
-.gallery img {
+#gallery {
+  margin-left: 120px;
+
+}
+
+@media screen and (max-width: 576px) {
+  #gallery {
+    margin-left: -2px;
+  }
+}
+
+#gallery img {
   /*width: 350px;
   height: 250px;*/
   object-fit: cover;
@@ -1403,7 +1419,7 @@ html {
   flex-wrap: wrap !important;
 }
 
-.gallery a {
+#gallery a {
   text-decoration: none !important;
 }
 
@@ -1418,6 +1434,12 @@ html {
   align-items: center !important;
   flex-wrap: wrap !important;
   text-decoration: none !important;
+}
+
+.galleryContainer {
+  display: grid;
+  align-items: center;
+  justify-content: center;
 }
 
 
