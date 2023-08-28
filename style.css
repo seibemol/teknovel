@@ -1447,26 +1447,35 @@ html {
 /* PROJELER */
 
 .projelerBaslikDiv {
+  display: grid;
   height: 330px;
   background-image: url(img/projeler.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
-  filter: brightness(0.9);
+}
+
+.projelerBaslikDiv h2 {
+  color: white !important;
 }
 
 .projelerBaslikH2 {
-  position: absolute;
+  display: grid;
   color: white !important;
   font-family: 'Exo 2', sans-serif;
   font-size: 45px;
-  text-transform: uppercase;
   text-align: center;
   align-items: center;
   justify-content: center;
-  z-index: 1;
-  margin-top: 195px;
+  text-transform: uppercase;
+  margin-top: 200px;
   /*margin-left: 860px;*/
+}
+
+@media screen and (max-width: 576px) {
+  .projelerBaslikH2 {
+    text-align: center !important;
+  }
 }
 
 .projelerMainDiv {
